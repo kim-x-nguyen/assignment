@@ -12,6 +12,7 @@ const DetailCard = (props) => {
         <>
             <Card sx={{
                 maxWidth: 500,
+                minWidth: 450,
                 boxShadow: 3,
                 display: "flex",
                 margin: "auto",
