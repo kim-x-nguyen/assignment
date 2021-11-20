@@ -25,25 +25,25 @@ const DetailCard = (props) => {
                     alignItems: "start"
                 }}>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`name: ${props.name}`}
+                        {`- name: ${props.name}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`username: ${props.username}`}
+                        {`- username: ${props.username}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`email: ${props.email}`}
+                        {`- email: ${props.email}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`phone: ${props.phone}`}
+                        {`- phone: ${props.phone}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`company: ${props.company}`}
+                        {`- company: ${props.company}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        {`website: ${props.website}`}
+                        {`- website: ${props.website}`}
                     </Typography>
                     <Typography sx={{ fontSize: 20 }} variant="subtitle2" gutterBottom paragraph>
-                        Address:
+                        - Address:
                     </Typography>
                     <List >
                         <ListItem >
