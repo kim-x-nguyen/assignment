@@ -46,24 +46,24 @@ const DetailCard = (props) => {
                         Address:
                     </Typography>
                     <List >
-                        <ListItem>
+                        <ListItem >
                             <ListItemText
-                                primary={`- ${props.address["street"]}`}
+                                primary={`- street: ${props.address["street"]}`}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                                primary={`- ${props.address["suite"]}`}
+                                primary={`- suite: ${props.address["suite"]}`}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                                primary={`- ${props.address["city"]}`}
+                                primary={`- city: ${props.address["city"]}`}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                                primary={`- ${props.address["zipcode"]}`}
+                                primary={`- zipcode: ${props.address["zipcode"]}`}
                             />
                         </ListItem>
                     </List>
