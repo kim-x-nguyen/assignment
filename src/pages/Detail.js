@@ -9,7 +9,7 @@ const Detail = () => {
     const [user, setUser] = useState();
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    let url = `https://jsonplaceholder.typicode.com/users/${id}`;
+     let url = `https://jsonplaceholder.typicode.com/users/${id}`;
 
     useEffect(() => {
         async function fetchData() {
